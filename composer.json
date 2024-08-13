@@ -1,0 +1,51 @@
+{
+    "name": "laravel-ui-kit/laravel-ui-kit",
+    "description": "A comprehensive collection of customizable components built with Blade, TailwindCSS, and AlpineJS.",
+    "keywords": [
+        "laravel-ui-kit"
+    ],
+    "homepage": "https://github.com/laravel-ui-kit/laravel-ui-kit",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Harlew.com",
+            "email": "harrison@harlew.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/view": "^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelUiKit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelUiKit\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelUiKit\\LaravelUiKitServiceProvider"
+            ]
+        }
+    }
+}
