@@ -1053,6 +1053,8 @@ return [
                 'burger' => 'flex items-center gap-x-3 py-1.5 px-2 text-sm/6 rounded-md',
                 'burger-icon' => 'h-7 w-7',
                 'container' => 'h-full fixed z-20 top-0 transition-transform duration-300 ease-in-out transform',
+                'container-open' => 'translate-x-0',
+                'container-hidden' => '-translate-x-full lg:translate-x-0',
                 'close' => 'absolute top-2 -right-8 z-30 lg:hidden',
                 'content' => 'p-5 h-full overflow-y-auto',
                 'open-body' => 'overflow-hidden lg:overflow-auto',

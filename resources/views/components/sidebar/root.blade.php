@@ -3,6 +3,8 @@
     'size' => config('ui-kit.components.sidebar.props.size'),
     'color' => config('ui-kit.components.sidebar.props.color'),
     'containerClasses' => '',
+    'containerOpenClasses' => '',
+    'containerHiddenClasses' => '',
     'overlayClasses' => '',
     'mobileNavbarClasses' => '',
     'burgerClasses' => '',
@@ -23,6 +25,20 @@
         config("ui-kit.components.sidebar.options.size.{$size}.container"),
         config("ui-kit.components.sidebar.options.color.{$color}.container"),
         $containerClasses,
+    );
+
+    $containerOpenClasses = Str::mergeClasses(
+        config('ui-kit.components.sidebar.style.container-open'),
+        config("ui-kit.components.sidebar.options.size.{$size}.container-open"),
+        config("ui-kit.components.sidebar.options.color.{$color}.container-open"),
+        $containerOpenClasses,
+    );
+
+    $containerHiddenClasses = Str::mergeClasses(
+        config('ui-kit.components.sidebar.style.container-hidden'),
+        config("ui-kit.components.sidebar.options.size.{$size}.container-hidden"),
+        config("ui-kit.components.sidebar.options.color.{$color}.container-hidden"),
+        $containerHiddenClasses,
     );
 
     $overlayClasses = Str::mergeClasses(
@@ -98,8 +114,8 @@
 
     <nav class="{{ $containerClasses }}"
         x-bind:class="{
-            'translate-x-0': open,
-            '-translate-x-full lg:translate-x-0': !open
+            '{{ $containerOpenClasses }}': open,
+            '{{ $containerHiddenClasses }}': !open
         }">
         <button class="{{ $closeClasses }}" x-on:click="open = false"
             x-show="open">
