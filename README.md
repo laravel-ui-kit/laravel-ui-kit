@@ -57,15 +57,13 @@ For Laravel versions prior to 5.5, you need to manually register the service pro
 
 ## Usage
 
-```php
-// Usage description here
-```
+For usage and examples, please visit our documentation:
+
+[Laravel UI Kit](https://laravel-ui-kit.com)
 
 ### Testing
 
-```bash
-composer test
-```
+TBD
 
 ### Changelog
 
