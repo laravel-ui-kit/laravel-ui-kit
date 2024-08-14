@@ -160,6 +160,12 @@ return [
                         'text-green-500 bg-green-100',
                         'dark:text-green-300 dark:bg-green-700',
                     ],
+                    'red-light' => 'text-red-500 bg-red-100',
+                    'red-dark' => 'text-red-300 bg-red-700',
+                    'red' => [
+                        'text-red-500 bg-red-100',
+                        'dark:text-red-300 dark:bg-red-700',
+                    ],
                 ],
                 'size' => [
                     'xs' => 'px-2 py-0.5 text-xs h-6',
