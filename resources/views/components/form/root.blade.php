@@ -5,8 +5,9 @@
 ])
 
 @php
+    $method = strtoupper($method);
     $formMethod = in_array($method, ['PUT', 'PATCH', 'DELETE']) ? 'POST' : $method;
-    $csrf = $csrf === null ? in_array($method, ['POST', 'PUT', 'PATCH', 'DELETE']) : $csrf;
+    $csrf = $csrf === null ? in_array($formMethod, ['POST', 'PUT', 'PATCH', 'DELETE']) : $csrf;
 @endphp
 
 <form {{ $attributes->merge(['method' => $formMethod, 'action' => $action]) }}>
