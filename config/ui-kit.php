@@ -626,6 +626,13 @@ return [
                         'text-gray-700 hover:text-gray-900 hover:bg-gray-100',
                         'dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-gray-700',
                     ],
+
+                    'red-light' => 'text-red-500 hover:text-red-700 hover:bg-red-100',
+                    'red-dark' => 'text-red-300 hover:text-red-100 hover:bg-red-700',
+                    'red' => [
+                        'text-red-500 hover:text-red-700 hover:bg-red-100',
+                        'dark:text-red-300 dark:hover:text-red-100 dark:hover:bg-red-700',
+                    ],
                 ],
                 'size' => [
                     'md' => 'px-4 py-2 text-sm',
