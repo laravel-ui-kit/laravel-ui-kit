@@ -2,6 +2,7 @@
     'as' => config('ui-kit.components.td.props.as'),
     'color' => config('ui-kit.components.td.props.color'),
     'align' => config('ui-kit.components.td.props.align'),
+    'size' => config('ui-kit.components.td.props.size'),
     'content' => '',
 ])
 
@@ -10,6 +11,7 @@ $classes = Str::mergeClasses(
     config('ui-kit.components.td.style.root'),
     config("ui-kit.components.td.options.color.$color"),
     config("ui-kit.components.td.options.align.$align"),
+    config("ui-kit.components.td.options.size.$size"),
 );
 @endphp
 

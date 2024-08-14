@@ -74,12 +74,6 @@ return [
                         'text-stone-800',
                         'dark:text-gray-100',
                     ],
-                    'red-light' => 'text-red-500',
-                    'red-dark' => 'text-red-300',
-                    'red' => [
-                        'text-red-500',
-                        'dark:text-red-300',
-                    ],
                 ],
                 'size' => [
                     'xs' => 'text-xs',
@@ -115,7 +109,6 @@ return [
                 'as' => 'a',
                 'color' => 'light-dark',
                 'size' => 'md',
-                'align' => 'inherit',
             ],
             'options' => [
                 'color' => [
@@ -133,12 +126,6 @@ return [
                     'lg' => 'text-lg',
                     'xl' => 'text-xl',
                     '2xl' => 'text-2xl',
-                ],
-                'align' => [
-                    'inherit' => '',
-                    'center' => 'text-center',
-                    'left' => 'text-left',
-                    'right' => 'text-right',
                 ],
             ],
         ],
@@ -219,7 +206,7 @@ return [
         'caption' => [
             'view' => 'components.typography.caption',
             'style' => [
-                'root' => 'text-gray-500',
+                'root' => 'text-xs text-gray-500',
             ],
             'props' => [
                 'as' => 'span',
@@ -757,6 +744,13 @@ return [
                         'bg-green-100 text-green-500 border-green-200',
                         'dark:bg-green-700 dark:text-green-300 dark:border-green-600',
                     ],
+
+                    'yellow-light' => 'bg-yellow-100 text-yellow-500 border-yellow-200',
+                    'yellow-dark' => 'bg-yellow-700 text-yellow-300 border-yellow-600',
+                    'yellow' => [
+                        'bg-yellow-100 text-yellow-500 border-yellow-200',
+                        'dark:bg-yellow-700 dark:text-yellow-300 dark:border-yellow-600',
+                    ],
                 ],
                 'size' => [
                     'sm' => 'px-4 py-2 text-sm',
@@ -807,12 +801,13 @@ return [
         'th' => [
             'view' => 'components.table.th',
             'style' => [
-                'root' => 'py-3 text-left text-sm font-semibold border-b',
+                'root' => 'text-left text-sm font-semibold border-b',
             ],
             'props' => [
                 'as' => 'th',
                 'align' => 'inherit',
                 'color' => 'light-dark',
+                'size' => 'sm',
             ],
             'options' => [
                 'color' => [
@@ -822,6 +817,11 @@ return [
                         'text-gray-500 border-gray-200',
                         'dark:text-gray-300 dark:border-gray-700',
                     ],
+                ],
+                'size' => [
+                    'sm' => 'py-3',
+                    'md' => 'py-4',
+                    'lg' => 'py-5',
                 ],
                 'align' => [
                     'inherit' => '',
@@ -834,12 +834,13 @@ return [
         'td' => [
             'view' => 'components.table.td',
             'style' => [
-                'root' => 'whitespace-nowrap py-3 text-sm border-b',
+                'root' => 'whitespace-nowrap text-sm border-b',
             ],
             'props' => [
                 'as' => 'td',
                 'align' => 'inherit',
                 'color' => 'light-dark',
+                'size' => 'sm',
             ],
             'options' => [
                 'color' => [
@@ -847,8 +848,12 @@ return [
                     'dark' => 'text-gray-300 border-gray-700',
                     'light-dark' => [
                         'text-gray-700 border-gray-200',
-                        'dark:text-gray-300 dark:border-gray-700',
+                        'dark:text-gray-400 dark:border-gray-700',
                     ],
+                ],
+                'size' => [
+                    'sm' => 'py-3',
+                    'md' => 'py-4',
                 ],
                 'align' => [
                     'inherit' => '',
