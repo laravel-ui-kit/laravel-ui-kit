@@ -74,6 +74,12 @@ return [
                         'text-stone-800',
                         'dark:text-gray-100',
                     ],
+                    'red-light' => 'text-red-500',
+                    'red-dark' => 'text-red-300',
+                    'red' => [
+                        'text-red-500',
+                        'dark:text-red-300',
+                    ],
                 ],
                 'size' => [
                     'xs' => 'text-xs',
@@ -109,6 +115,7 @@ return [
                 'as' => 'a',
                 'color' => 'light-dark',
                 'size' => 'md',
+                'align' => 'inherit',
             ],
             'options' => [
                 'color' => [
@@ -126,6 +133,12 @@ return [
                     'lg' => 'text-lg',
                     'xl' => 'text-xl',
                     '2xl' => 'text-2xl',
+                ],
+                'align' => [
+                    'inherit' => '',
+                    'center' => 'text-center',
+                    'left' => 'text-left',
+                    'right' => 'text-right',
                 ],
             ],
         ],
@@ -206,7 +219,7 @@ return [
         'caption' => [
             'view' => 'components.typography.caption',
             'style' => [
-                'root' => 'text-xs text-gray-500',
+                'root' => 'text-gray-500',
             ],
             'props' => [
                 'as' => 'span',
@@ -236,6 +249,12 @@ return [
                     'light-dark' => [
                         'text-gray-500',
                         'dark:text-gray-400',
+                    ],
+                    'red-light' => 'text-red-500',
+                    'red-dark' => 'text-red-300',
+                    'red' => [
+                        'text-red-500',
+                        'dark:text-red-300',
                     ],
                 ],
                 'weight' => [
