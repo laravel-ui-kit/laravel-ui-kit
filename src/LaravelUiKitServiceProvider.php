@@ -103,6 +103,8 @@ class LaravelUiKitServiceProvider extends ServiceProvider
             $classes = implode(' ', $classes);
             // remove double+spaces
             $classes = preg_replace('/\s+/', ' ', $classes);
+            // trim
+            $classes = trim($classes);
 
             return $classes;
         });

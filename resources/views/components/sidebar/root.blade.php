@@ -12,6 +12,7 @@
     'burgerIconClasses' => '',
     'closeClasses' => '',
     'contentClasses' => '',
+    'openBodyClasses' => '',
 ])
 
 @php
