@@ -581,11 +581,20 @@ return [
                     ],
                 ],
                 'size' => [
+                    'xs' => [
+                        'container' => 'min-w-32',
+                    ],
                     'sm' => [
                         'container' => 'min-w-36',
                     ],
                     'md' => [
                         'container' => 'min-w-48',
+                    ],
+                    'lg' => [
+                        'container' => 'min-w-60',
+                    ],
+                    'xl' => [
+                        'container' => 'min-w-72',
                     ],
                 ],
                 'align' => [
