@@ -2,6 +2,7 @@
     'as' => config('ui-kit.components.sidebar.props.as'),
     'size' => config('ui-kit.components.sidebar.props.size'),
     'color' => config('ui-kit.components.sidebar.props.color'),
+    'variant' => config('ui-kit.components.sidebar.props.variant'),
     'containerClasses' => '',
     'containerOpenClasses' => '',
     'containerHiddenClasses' => '',
@@ -18,12 +19,14 @@
         config('ui-kit.components.sidebar.style.root'),
         config("ui-kit.components.sidebar.options.size.{$size}.root"),
         config("ui-kit.components.sidebar.options.color.{$color}.root"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.root"),
     );
 
     $containerClasses = Str::mergeClasses(
         config('ui-kit.components.sidebar.style.container'),
         config("ui-kit.components.sidebar.options.size.{$size}.container"),
         config("ui-kit.components.sidebar.options.color.{$color}.container"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.container"),
         $containerClasses,
     );
 
@@ -31,6 +34,7 @@
         config('ui-kit.components.sidebar.style.container-open'),
         config("ui-kit.components.sidebar.options.size.{$size}.container-open"),
         config("ui-kit.components.sidebar.options.color.{$color}.container-open"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.container-open"),
         $containerOpenClasses,
     );
 
@@ -38,6 +42,7 @@
         config('ui-kit.components.sidebar.style.container-hidden'),
         config("ui-kit.components.sidebar.options.size.{$size}.container-hidden"),
         config("ui-kit.components.sidebar.options.color.{$color}.container-hidden"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.container-hidden"),
         $containerHiddenClasses,
     );
 
@@ -45,6 +50,7 @@
         config('ui-kit.components.sidebar.style.overlay'),
         config("ui-kit.components.sidebar.options.size.{$size}.overlay"),
         config("ui-kit.components.sidebar.options.color.{$color}.overlay"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.overlay"),
         $overlayClasses,
     );
 
@@ -52,6 +58,7 @@
         config('ui-kit.components.sidebar.style.mobile-navbar'),
         config("ui-kit.components.sidebar.options.size.{$size}.mobile-navbar"),
         config("ui-kit.components.sidebar.options.color.{$color}.mobile-navbar"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.mobile-navbar"),
         $mobileNavbarClasses,
     );
 
@@ -59,6 +66,7 @@
         config('ui-kit.components.sidebar.style.burger'),
         config("ui-kit.components.sidebar.options.size.{$size}.burger"),
         config("ui-kit.components.sidebar.options.color.{$color}.burger"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.burger"),
         $burgerClasses,
     );
 
@@ -66,6 +74,7 @@
         config('ui-kit.components.sidebar.style.burger-icon'),
         config("ui-kit.components.sidebar.options.size.{$size}.burger-icon"),
         config("ui-kit.components.sidebar.options.color.{$color}.burger-icon"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.burger-icon"),
         $burgerIconClasses,
     );
 
@@ -73,6 +82,7 @@
         config('ui-kit.components.sidebar.style.close'),
         config("ui-kit.components.sidebar.options.size.{$size}.close"),
         config("ui-kit.components.sidebar.options.color.{$color}.close"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.close"),
         $closeClasses,
     );
 
@@ -80,6 +90,7 @@
         config('ui-kit.components.sidebar.style.content'),
         config("ui-kit.components.sidebar.options.size.{$size}.content"),
         config("ui-kit.components.sidebar.options.color.{$color}.content"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.content"),
         $contentClasses,
     );
 

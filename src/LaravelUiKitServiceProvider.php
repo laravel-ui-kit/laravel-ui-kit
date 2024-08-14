@@ -64,7 +64,11 @@ class LaravelUiKitServiceProvider extends ServiceProvider
 
     protected function bootStrMacros()
     {
-        Str::macro('prefixClasses', function (string $prefix, string $classes) {
+        Str::macro('prefixClasses', function (string $prefix, ?string $classes) {
+            if (!$classes) {
+                return '';
+            }
+
             // clear double+ spaces
             $classes = preg_replace('/\s+/', ' ', $classes);
             // convert to array
