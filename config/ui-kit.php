@@ -842,7 +842,7 @@ return [
             'view' => 'components.table.td',
             'style' => [
                 'root' => 'relative whitespace-nowrap text-sm border-b',
-                'link' => 'absolute inset-0 focus:outline-none',
+                'href' => 'absolute inset-0 focus:outline-none',
             ],
             'props' => [
                 'as' => 'td',

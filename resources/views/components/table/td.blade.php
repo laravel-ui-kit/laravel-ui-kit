@@ -16,9 +16,9 @@ $classes = Str::mergeClasses(
 );
 
 $hrefClasses = Str::mergeClasses(
-    config('ui-kit.components.td.style.href'),
-    config("ui-kit.components.td.options.color.$color"),
-    config("ui-kit.components.td.options.size.$size"),
+    config('ui-kit.components.td.style.link'),
+    config("ui-kit.components.td.options.color.$color.link"),
+    config("ui-kit.components.td.options.size.$size.link"),
 );
 
 @endphp
