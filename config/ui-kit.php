@@ -109,6 +109,7 @@ return [
                 'as' => 'a',
                 'color' => 'light-dark',
                 'size' => 'md',
+                'align' => 'inherit',
             ],
             'options' => [
                 'color' => [
@@ -126,6 +127,12 @@ return [
                     'lg' => 'text-lg',
                     'xl' => 'text-xl',
                     '2xl' => 'text-2xl',
+                ],
+                'align' => [
+                    'inherit' => '',
+                    'center' => 'text-center',
+                    'left' => 'text-left',
+                    'right' => 'text-right',
                 ],
             ],
         ],
@@ -854,6 +861,7 @@ return [
                 'size' => [
                     'sm' => 'py-3',
                     'md' => 'py-4',
+                    'lg' => 'py-5',
                 ],
                 'align' => [
                     'inherit' => '',
