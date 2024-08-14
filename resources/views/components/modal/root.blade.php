@@ -2,7 +2,7 @@
     'size' => config('ui-kit.components.modal.props.size'),
     'color' => config('ui-kit.components.modal.props.color'),
     'closable' => config('ui-kit.components.modal.props.closable'),
-    'open' => 'false',
+    'open' => false,
 ])
 
 @php
@@ -17,7 +17,7 @@
     $overlayClasses = Str::mergeClasses(config('ui-kit.components.modal.style.overlay'));
 @endphp
 
-<div x-data="{ open: {{ $open }} }" x-init="$watch('open', function(value) {
+<div x-data="{ open: {{ is_bool($open) ? ($open ? 'true' : 'false') : $open }} }" x-init="$watch('open', function(value) {
     if (value === true) { document.body.classList.add('overflow-hidden') } else { document.body.classList.remove('overflow-hidden') }
 });">
     <span x-on:click="open = true">
