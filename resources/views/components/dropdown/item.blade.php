@@ -3,6 +3,7 @@
     'size' => config('ui-kit.components.dropdown-item.props.size'),
     'color' => config('ui-kit.components.dropdown-item.props.color'),
     'divider' => config('ui-kit.components.dropdown-item.props.divider'),
+    'content' => '',
 ])
 
 @php
@@ -15,5 +16,5 @@
 @endphp
 
 <{{ $as }} {{ $attributes->merge(['class' => $classes]) }}>
-    {{ $slot }}
+    {{ $content }}{{ $slot }}
 </{{ $as }}>

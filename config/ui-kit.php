@@ -95,6 +95,7 @@ return [
                     'inherit' => 'font-inherit',
                     'normal' => 'font-normal',
                     'medium' => 'font-medium',
+                    'semibold' => 'font-semibold',
                     'bold' => 'font-bold',
                 ],
             ],
@@ -529,8 +530,10 @@ return [
         'dropdown' => [
             'view' => 'components.dropdown.root',
             'style' => [
-                'root' => 'absolute z-50 shadow-xl mt-2 origin-top-right rounded-xl border ring-inset focus:outline-none p-1',
-                'container' => 'rounded-xl'
+                'root' => 'relative',
+                'trigger' => '',
+                'container' => 'absolute z-50 shadow-xl mt-2 origin-top-right rounded-xl border ring-inset focus:outline-none p-1',
+                'menu' => 'rounded-xl'
             ],
             'props' => [
                 'size' => 'md',
@@ -539,23 +542,34 @@ return [
             ],
             'options' => [
                 'color' => [
-                    'light' => 'bg-white border-gray-200',
-                    'dark' => 'bg-gray-800 border-gray-700',
+                    'light' => [
+                        'container' => 'bg-white border-gray-200',
+                    ],
+                    'dark' => [
+                        'container' => 'bg-gray-800 border-gray-700',
+                    ],
                     'light-dark' => [
-                        'bg-white border-gray-200',
-                        'dark:bg-gray-800 dark:border-gray-700',
+                        'container' => [
+                            'bg-white border-gray-200',
+                            'dark:bg-gray-800 dark:border-gray-700',
+                        ],
                     ],
                 ],
-                'containerColor' => [
-                    'gray' => 'bg-gray-800',
-                    'white' => 'bg-white',
-                ],
                 'size' => [
-                    'md' => 'min-w-48',
+                    'sm' => [
+                        'container' => 'min-w-36',
+                    ],
+                    'md' => [
+                        'container' => 'min-w-48',
+                    ],
                 ],
                 'align' => [
-                    'left' => 'left-0',
-                    'right' => 'right-0',
+                    'left' => [
+                        'container' => 'left-0'
+                    ],
+                    'right' => [
+                        'container' => 'right-0',
+                    ],
                 ],
             ],
         ],
