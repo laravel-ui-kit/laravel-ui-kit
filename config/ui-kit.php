@@ -1118,14 +1118,13 @@ return [
                 'container-hidden' => '-translate-x-full',
                 'close' => 'absolute top-2 -right-8 z-30',
                 'content' => 'p-5 h-full overflow-y-auto',
-                'open-body' => 'overflow-hidden',
+                'open-body' => '',
             ],
             'props' => [
                 'as' => 'nav',
                 'color' => 'light-dark',
                 'size' => 'md',
                 'variant' => 'fixed-lg',
-                // 'width' => 'w-60',
             ],
             'options' => [
                 'size' => [
@@ -1146,7 +1145,7 @@ return [
                     'inline-md' => [
                         'root' => 'md:flex-shrink-0',
                         'container' => 'md:left-auto',
-                        'open-body' => 'md:overflow-auto',
+                        'open-body' => 'overflow-hidden md:overflow-auto',
                         'close' => 'md:hidden',
                         'container-hidden' => 'md:translate-x-0',
                         'mobile-navbar' => 'md:hidden',
@@ -1155,7 +1154,7 @@ return [
                     'inline-lg' => [
                         'root' => 'lg:flex-shrink-0',
                         'container' => 'lg:left-auto',
-                        'open-body' => 'lg:overflow-auto',
+                        'open-body' => 'overflow-hidden lg:overflow-auto',
                         'close' => 'lg:hidden',
                         'container-hidden' => 'lg:translate-x-0',
                         'mobile-navbar' => 'lg:hidden',
@@ -1164,28 +1163,28 @@ return [
                     'inline-xl' => [
                         'root' => 'xl:flex-shrink-0',
                         'container' => 'xl:left-auto',
-                        'open-body' => 'xl:overflow-auto',
+                        'open-body' => 'overflow-hidden xl:overflow-auto',
                         'close' => 'xl:hidden',
                         'container-hidden' => 'xl:translate-x-0',
                         'mobile-navbar' => 'xl:hidden',
                         'overlay' => 'xl:relative',
                     ],
                     'fixed-md' => [
-                        'open-body' => 'md:overflow-auto',
+                        'open-body' => 'overflow-hidden md:overflow-auto',
                         'close' => 'md:hidden',
                         'container-hidden' => 'md:translate-x-0',
                         'mobile-navbar' => 'md:hidden',
                         'overlay' => 'md:relative',
                     ],
                     'fixed-lg' => [
-                        'open-body' => 'lg:overflow-auto',
+                        'open-body' => 'overflow-hidden lg:overflow-auto',
                         'close' => 'lg:hidden',
                         'container-hidden' => 'lg:translate-x-0',
                         'mobile-navbar' => 'lg:hidden',
                         'overlay' => 'lg:relative',
                     ],
                     'fixed-xl' => [
-                        'open-body' => 'xl:overflow-auto',
+                        'open-body' => 'overflow-hidden xl:overflow-auto',
                         'close' => 'xl:hidden',
                         'container-hidden' => 'xl:translate-x-0',
                         'mobile-navbar' => 'xl:hidden',

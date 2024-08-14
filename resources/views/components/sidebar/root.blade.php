@@ -94,8 +94,13 @@
         $contentClasses,
     );
 
-    $openBodyClasses = config('ui-kit.components.sidebar.style.open-body');
-    $openBodyClasses = explode(' ', $openBodyClasses);
+    $openBodyClasses = Str::mergeClasses(
+        config('ui-kit.components.sidebar.style.open-body'),
+        config("ui-kit.components.sidebar.options.size.{$size}.open-body"),
+        config("ui-kit.components.sidebar.options.color.{$color}.open-body"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.open-body"),
+        $openBodyClasses,
+    );
 @endphp
 
 <div x-data="{ open: false }" x-init="$watch('open', function(value) {
