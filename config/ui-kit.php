@@ -250,6 +250,12 @@ return [
                         'text-red-500',
                         'dark:text-red-300',
                     ],
+                    'green-light' => 'text-green-500',
+                    'green-dark' => 'text-green-300',
+                    'green' => [
+                        'text-green-500',
+                        'dark:text-green-300',
+                    ],
                 ],
                 'weight' => [
                     'inherit' => '',
