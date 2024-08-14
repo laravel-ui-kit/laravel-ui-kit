@@ -841,13 +841,15 @@ return [
         'td' => [
             'view' => 'components.table.td',
             'style' => [
-                'root' => 'whitespace-nowrap text-sm border-b',
+                'root' => 'relative whitespace-nowrap text-sm border-b',
+                'link' => 'absolute inset-0 focus:outline-none',
             ],
             'props' => [
                 'as' => 'td',
                 'align' => 'inherit',
                 'color' => 'light-dark',
                 'size' => 'sm',
+                'href' => null,
             ],
             'options' => [
                 'color' => [
