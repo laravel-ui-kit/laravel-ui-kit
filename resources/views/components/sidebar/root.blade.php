@@ -106,11 +106,17 @@
 
 <div x-data="{ open: false }" x-init="$watch('open', function(value) {
     if (value === true) { 
-        @foreach ($openBodyClasses as $class)
+        @foreach (explode(' ', $openBodyClasses) as $class)
+            @if (trim($class) == '')
+                @continue
+            @endif
             document.body.classList.add('{{ $class }}');
         @endforeach
     } else { 
-        @foreach ($openBodyClasses as $class)
+        @foreach (explode(' ', $openBodyClasses) as $class)
+            @if (trim($class) == '')
+                @continue
+            @endif
             document.body.classList.remove('{{ $class }}');
         @endforeach 
     }
