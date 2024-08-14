@@ -656,6 +656,13 @@ return [
                         'text-white bg-transparent border-transparent hover:border-gray-200',
                         'dark:text-gray-300 dark:bg-transparent dark:border-transparent dark:hover:border-gray-600',
                     ],
+
+                    'red-light' => 'text-white bg-red-500 border-red-600 hover:bg-red-600',
+                    'red-dark' => 'text-white bg-red-500 border-red-600 hover:bg-red-600',
+                    'red' => [
+                        'text-white bg-red-500 border-red-600 hover:bg-red-600',
+                        'dark:text-white dark:bg-red-500 dark:border-red-600 dark:hover:bg-red-600',
+                    ],
                 ],
                 'size' => [
                     'xs' => 'px-1 py-1 text-xs h-6',
