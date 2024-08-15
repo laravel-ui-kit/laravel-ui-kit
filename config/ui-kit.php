@@ -166,6 +166,18 @@ return [
                         'text-red-500 bg-red-100',
                         'dark:text-red-300 dark:bg-red-700',
                     ],
+                    'yellow-light' => 'text-yellow-500 bg-yellow-100',
+                    'yellow-dark' => 'text-yellow-300 bg-yellow-700',
+                    'yellow' => [
+                        'text-yellow-500 bg-yellow-100',
+                        'dark:text-yellow-300 dark:bg-yellow-700',
+                    ],
+                    'gray-light' => 'text-gray-500 bg-gray-100',
+                    'gray-dark' => 'text-gray-300 bg-gray-700',
+                    'gray' => [
+                        'text-gray-500 bg-gray-100',
+                        'dark:text-gray-300 dark:bg-gray-700',
+                    ],
                 ],
                 'size' => [
                     'xs' => 'px-2 py-0.5 text-xs h-6',
