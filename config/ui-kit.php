@@ -916,9 +916,9 @@ return [
                     ],
                 ],
                 'size' => [
-                    'sm' => 'py-3',
-                    'md' => 'py-4',
-                    'lg' => 'py-5',
+                    'sm' => 'py-3 px-2',
+                    'md' => 'py-4 px-3',
+                    'lg' => 'py-5 px-4',
                 ],
                 'align' => [
                     'inherit' => '',
