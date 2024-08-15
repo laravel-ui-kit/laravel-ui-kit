@@ -3,6 +3,7 @@
     'color' => config('ui-kit.components.td.props.color'),
     'align' => config('ui-kit.components.td.props.align'),
     'size' => config('ui-kit.components.td.props.size'),
+    'weight' => config('ui-kit.components.td.props.weight'),
     'content' => '',
     'href' => null,
 ])
@@ -13,6 +14,7 @@ $classes = Str::mergeClasses(
     config("ui-kit.components.td.options.color.$color"),
     config("ui-kit.components.td.options.align.$align"),
     config("ui-kit.components.td.options.size.$size"),
+    config("ui-kit.components.td.options.weight.$weight"),
 );
 
 $hrefClasses = Str::mergeClasses(

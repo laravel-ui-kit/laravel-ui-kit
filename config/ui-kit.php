@@ -843,13 +843,14 @@ return [
         'th' => [
             'view' => 'components.table.th',
             'style' => [
-                'root' => 'text-left text-sm font-semibold border-b',
+                'root' => 'text-left text-sm border-b',
             ],
             'props' => [
                 'as' => 'th',
                 'align' => 'inherit',
                 'color' => 'light-dark',
                 'size' => 'sm',
+                'weight' => 'semibold',
             ],
             'options' => [
                 'color' => [
@@ -871,6 +872,12 @@ return [
                     'center' => 'text-center',
                     'right' => 'text-right',
                 ],
+                'weight' => [
+                    'inherit' => '',
+                    'normal' => 'font-normal',
+                    'semibold' => 'font-semibold',
+                    'bold' => 'font-bold',
+                ],
             ],
         ],
         'td' => [
@@ -884,6 +891,7 @@ return [
                 'align' => 'inherit',
                 'color' => 'light-dark',
                 'size' => 'sm',
+                'weight' => 'inherit',
                 'href' => null,
             ],
             'options' => [
@@ -905,6 +913,12 @@ return [
                     'left' => 'text-left',
                     'center' => 'text-center',
                     'right' => 'text-right',
+                ],
+                'weight' => [
+                    'inherit' => '',
+                    'normal' => 'font-normal',
+                    'semibold' => 'font-semibold',
+                    'bold' => 'font-bold',
                 ],
             ],
         ],
