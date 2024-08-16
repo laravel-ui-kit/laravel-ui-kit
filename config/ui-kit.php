@@ -805,6 +805,13 @@ return [
                         'bg-yellow-100 text-yellow-500 border-yellow-200',
                         'dark:bg-yellow-700 dark:text-yellow-300 dark:border-yellow-600',
                     ],
+
+                    'gray-light' => 'bg-gray-100 text-gray-500 border-gray-200',
+                    'gray-dark' => 'bg-gray-700 text-gray-300 border-gray-600',
+                    'gray' => [
+                        'bg-gray-100 text-gray-500 border-gray-200',
+                        'dark:bg-gray-700 dark:text-gray-300 dark:border-gray-600',
+                    ],
                 ],
                 'size' => [
                     'sm' => 'px-4 py-2 text-sm',
