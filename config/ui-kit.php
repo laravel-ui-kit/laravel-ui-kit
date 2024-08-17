@@ -799,6 +799,13 @@ return [
                         'dark:bg-green-700 dark:text-green-300 dark:border-green-600',
                     ],
 
+                    'red-light' => 'bg-red-100 text-red-500 border-red-200',
+                    'red-dark' => 'bg-red-700 text-red-300 border-red-600',
+                    'red' => [
+                        'bg-red-100 text-red-500 border-red-200',
+                        'dark:bg-red-700 dark:text-red-300 dark:border-red-600',
+                    ],
+
                     'yellow-light' => 'bg-yellow-100 text-yellow-500 border-yellow-200',
                     'yellow-dark' => 'bg-yellow-700 text-yellow-300 border-yellow-600',
                     'yellow' => [
