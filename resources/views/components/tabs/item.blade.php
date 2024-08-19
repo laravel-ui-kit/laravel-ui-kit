@@ -5,6 +5,7 @@
     'active' => config('ui-kit.components.tab.props.active'),
     'disabled' => config('ui-kit.components.tab.props.disabled'),
     'content' => '',
+    'containerClasses' => '',
 ])
 
 @php
@@ -17,6 +18,11 @@
         $disabled
             ? config("ui-kit.components.tab.options.color.$color.disabled")
             : config("ui-kit.components.tab.options.color.$color.not-disabled"),
+    );
+
+    $containerClasses = Str::mergeClasses(
+        config('ui-kit.components.tab.style.container'),
+        $containerClasses,
     );
 @endphp
 
