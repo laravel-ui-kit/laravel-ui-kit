@@ -1020,8 +1020,8 @@ return [
                     ],
                 ],
                 'orientation' => [
-                    'horizontal' => 'items-stretch space-x-3 border-b',
-                    'vertical' => 'flex-col items-stretch space-y-0.5 border-l',
+                    'horizontal' => 'items-stretch border-b',
+                    'vertical' => 'flex-col items-stretch border-l',
                 ],
             ],
         ],
