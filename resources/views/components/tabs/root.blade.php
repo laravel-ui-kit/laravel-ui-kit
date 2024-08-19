@@ -1,4 +1,5 @@
 @props([
+    'as' => config('ui-kit.components.tabs.props.as'),
     'orientation' => config('ui-kit.components.tabs.props.orientation'),
     'color' => config('ui-kit.components.tabs.props.color'),
 ])
@@ -11,6 +12,6 @@
     );
 @endphp
 
-<ul {{ $attributes->merge(['class' => $classes]) }}>
+<{{ $as }} {{ $attributes->merge(['class' => $classes]) }}>
     {{ $slot }}
-</ul>
+</{{ $as }}>

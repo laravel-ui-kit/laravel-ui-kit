@@ -1006,6 +1006,7 @@ return [
                 'root' => 'flex list-none font-medium',
             ],
             'props' => [
+                'as' => 'div',
                 'orientation' => 'horizontal',
                 'color' => 'light-dark',
             ],

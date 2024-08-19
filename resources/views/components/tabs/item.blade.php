@@ -19,18 +19,11 @@
             ? config("ui-kit.components.tab.options.color.$color.disabled")
             : config("ui-kit.components.tab.options.color.$color.not-disabled"),
     );
-
-    $containerClasses = Str::mergeClasses(
-        config('ui-kit.components.tab.style.container'),
-        $containerClasses,
-    );
 @endphp
 
-<li>
-    <{{ $as }} {{ $attributes->merge([
-        'class' => $classes,
-        'aria-current' => $active ? 'page' : null,
-    ])}}>
-        {{ $content }}{{ $slot }}
-    </{{ $as }}>
-</li>
+<{{ $as }} {{ $attributes->merge([
+    'class' => $classes,
+    'aria-current' => $active ? 'page' : null,
+])}}>
+    {{ $content }}{{ $slot }}
+</{{ $as }}>
