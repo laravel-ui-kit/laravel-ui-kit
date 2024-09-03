@@ -1,6 +1,6 @@
 {
     "name": "laravel-ui-kit/laravel-ui-kit",
-    "description": "A comprehensive collection of customizable components built with Blade, TailwindCSS, and AlpineJS.",
+    "description": "Laravel UI Kit is a comprehensive set of view components for Laravel built using Livewire and Blade.",
     "keywords": [
         "laravel-ui-kit"
     ],
