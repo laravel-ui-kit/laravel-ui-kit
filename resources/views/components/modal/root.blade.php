@@ -3,6 +3,7 @@
     'color' => config('ui-kit.components.modal.props.color'),
     'closable' => config('ui-kit.components.modal.props.closable'),
     'open' => false,
+    'name' => null,
 ])
 
 @php
@@ -19,10 +20,15 @@
 
 <div x-data="{ open: {{ is_bool($open) ? ($open ? 'true' : 'false') : $open }} }" x-init="$watch('open', function(value) {
     if (value === true) { document.body.classList.add('overflow-hidden') } else { document.body.classList.remove('overflow-hidden') }
-});">
-    <span x-on:click="open = true">
-        {{ $trigger }}
-    </span>
+});"
+    @if ($name) x-on:open-modal.window="$event.detail == '{{ $name }}' ? show = true : null"
+    x-on:close-modal.window="$event.detail == '{{ $name }}' ? show = false : null"
+    x-on:toggle-modal.window="$event.detail == '{{ $name }}' ? show = !show : null" @endif>
+    @isset($trigger)
+        <span x-on:click="open = true">
+            {{ $trigger }}
+        </span>
+    @endisset
 
     <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true"
         x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto"

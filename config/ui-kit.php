@@ -684,10 +684,10 @@ return [
                         'dark:text-white dark:bg-transparent dark:border-gray-600 dark:hover:bg-gray-600/20',
                     ],
                     
-                    'transparent-light' => 'text-white bg-transparent border-transparent hover:border-gray-200',
+                    'transparent-light' => 'text-gray-700 bg-transparent border-transparent hover:border-gray-200',
                     'transparent-dark' => 'text-gray-300 bg-transparent border-transparent hover:border-gray-600',
                     'transparent' => [
-                        'text-white bg-transparent border-transparent hover:border-gray-200',
+                        'text-gray-700 bg-transparent border-transparent hover:border-gray-200',
                         'dark:text-gray-300 dark:bg-transparent dark:border-transparent dark:hover:border-gray-600',
                     ],
 
@@ -888,9 +888,9 @@ return [
                     ],
                 ],
                 'size' => [
-                    'sm' => 'py-3',
-                    'md' => 'py-4',
-                    'lg' => 'py-5',
+                    'sm' => 'py-3 px-2 first:pl-0 last:pr-0',
+                    'md' => 'py-4 px-3 first:pl-0 last:pr-0',
+                    'lg' => 'py-5 px-4 first:pl-0 last:pr-0',
                 ],
                 'align' => [
                     'inherit' => '',
@@ -930,9 +930,9 @@ return [
                     ],
                 ],
                 'size' => [
-                    'sm' => 'py-3',
-                    'md' => 'py-4',
-                    'lg' => 'py-5',
+                    'sm' => 'py-3 px-2 first:pl-0 last:pr-0',
+                    'md' => 'py-4 px-3 first:pl-0 last:pr-0',
+                    'lg' => 'py-5 px-4 first:pl-0 last:pr-0',
                 ],
                 'align' => [
                     'inherit' => '',
@@ -1040,16 +1040,16 @@ return [
             'options' => [
                 'color' => [
                     'light' => [
-                        'active' => 'border-sky-400 text-sky-400',
-                        'not-active' => 'border-transparent hover:border-gray-600 hover:text-gray-600',
+                        'active' => 'border-gray-400 text-gray-800',
+                        'not-active' => 'border-transparent hover:border-gray-500 hover:text-gray-700',
                     ],
                     'dark' => [
                         'active' => 'border-gray-300 text-gray-300',
-                        'not-active' => 'border-transparent hover:border-gray-300 hover:text-gray-300',
+                        'not-active' => 'border-transparent hover:border-gray-400 hover:text-gray-400',
                     ],
                     'light-dark' => [
-                        'active' => 'border-sky-400 text-sky-400 dark:border-sky-400 dark:text-sky-400',
-                        'not-active' => 'border-transparent hover:border-gray-600 hover:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300',
+                        'active' => 'border-gray-800 text-gray-800 font-semibold dark:border-white dark:text-white',
+                        'not-active' => 'border-transparent text-gray-500 hover:border-gray-500 hover:text-gray-700 dark:hover:border-gray-400 dark:hover:text-gray-400',
                     ],
                 ],
                 'orientation' => [
@@ -1180,7 +1180,9 @@ return [
                 'container-open' => 'translate-x-0',
                 'container-hidden' => '-translate-x-full',
                 'close' => 'absolute top-2 -right-8 z-30',
-                'content' => 'p-5 h-full overflow-y-auto',
+                'content' => 'p-5 overflow-y-auto flex flex-col h-full',
+                'content-top' => 'flex-grow',
+                'content-bottom' => '',
                 'open-body' => '',
             ],
             'props' => [
@@ -1279,7 +1281,7 @@ return [
         'sidebar-item' => [
             'view' => 'components.sidebar.item',
             'style' => [
-                'root' => 'flex items-center gap-x-3 font-semibold',
+                'root' => 'flex items-center gap-x-3 group',
             ],
             'props' => [
                 'as' => 'a',
@@ -1288,18 +1290,18 @@ return [
             ],
             'options' => [
                 'color' => [
-                    'light' => 'text-gray-500 hover:text-gray-700  rounded-md',
+                    'light' => 'text-gray-500 hover:text-gray-700 rounded-md',
                     'dark' => 'text-gray-400 hover:text-gray-300 rounded-md',
                     'light-dark' => [
                         'text-gray-500 hover:text-gray-700 rounded-md',
                         'dark:text-gray-400 dark:hover:text-gray-300 dark:rounded-md',
                     ],
 
-                    'active-light' => 'text-sky-400 rounded-md',
+                    'active-light' => 'text-gray-900 rounded-md font-semibold',
                     'active-dark' => 'text-sky-400 rounded-md',
                     'active' => [
-                        'text-sky-400 rounded-md',
-                        'dark:text-sky-400 dark:rounded-md',
+                        'text-gray-900 rounded-md font-semibold',
+                        'dark:text-white dark:rounded-md',
                     ],
 
                     'burger-light' => 'text-gray-700 hover:bg-gray-100 rounded-md',
@@ -1317,7 +1319,7 @@ return [
         'sidebar-icon' => [
             'view' => 'components.sidebar.icon',
             'style' => [
-                'root' => 'flex-none border rounded-md p-1.5',
+                'root' => 'flex-none border rounded-md',
             ],
             'props' => [
                 'as' => 'svg',
@@ -1326,15 +1328,15 @@ return [
             ],
             'options' => [
                 'color' => [
-                    'light' => 'border-gray-200 bg-gray-100',
+                    'light' => 'border-gray-200 group-hover:text-gray-900',
                     'dark' => 'dark:border-gray-700 dark:bg-gray-800',
                     'light-dark' => [
-                        'border-gray-200 bg-gray-100',
-                        'dark:border-gray-700 dark:bg-gray-800',
+                        'border-gray-200 bg-gray-100 group-hover:text-gray-900',
+                        'dark:border-gray-700 dark:bg-gray-800 dark:group-hover:text-white',
                     ],
                 ],
                 'size' => [
-                    'md' => 'size-8 p-1.5',
+                    'md' => 'size-7 p-1',
                 ],
             ],
         ],

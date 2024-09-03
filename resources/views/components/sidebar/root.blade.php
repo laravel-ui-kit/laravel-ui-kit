@@ -12,6 +12,8 @@
     'burgerIconClasses' => '',
     'closeClasses' => '',
     'contentClasses' => '',
+    'contentTopClasses' => '',
+    'contentBottomClasses' => '',
     'openBodyClasses' => '',
 ])
 
@@ -95,6 +97,22 @@
         $contentClasses,
     );
 
+    $contentTopClasses = Str::mergeClasses(
+        config('ui-kit.components.sidebar.style.content-top'),
+        config("ui-kit.components.sidebar.options.size.{$size}.content-top"),
+        config("ui-kit.components.sidebar.options.color.{$color}.content-top"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.content-top"),
+        $contentTopClasses,
+    );
+
+    $contentBottomClasses = Str::mergeClasses(
+        config('ui-kit.components.sidebar.style.content-top'),
+        config("ui-kit.components.sidebar.options.size.{$size}.content-bottom"),
+        config("ui-kit.components.sidebar.options.color.{$color}.content-bottom"),
+        config("ui-kit.components.sidebar.options.variant.{$variant}.content-bottom"),
+        $contentBottomClasses,
+    );
+
     $openBodyClasses = Str::mergeClasses(
         config('ui-kit.components.sidebar.style.open-body'),
         config("ui-kit.components.sidebar.options.size.{$size}.open-body"),
@@ -151,7 +169,15 @@
         </button>
 
         <div class="{{ $contentClasses }}">
-            {{ $slot }}
+            <div class="{{ $contentTopClasses }}">
+                {{ $slot }}
+            </div>
+            
+            @isset($bottom)
+                <div class="{{ $contentBottomClasses }}">
+                    {{ $bottom }}
+                </div>
+            @endisset
         </div>
     </nav>
 </div>

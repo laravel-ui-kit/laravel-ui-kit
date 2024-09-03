@@ -4,7 +4,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/laravel-ui-kit/laravel-ui-kit.svg?style=flat-square)](https://packagist.org/packages/laravel-ui-kit/laravel-ui-kit)
 ![GitHub Actions](https://github.com/laravel-ui-kit/laravel-ui-kit/actions/workflows/main.yml/badge.svg)
 
-Laravel UI Kit is a comprehensive collection of customizable components built with Blade, TailwindCSS, and AlpineJS.
+Laravel UI Kit is a comprehensive set of view components for Laravel built using Livewire and Blade.
 
 ## Installation
 
