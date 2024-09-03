@@ -18,7 +18,7 @@
     $overlayClasses = Str::mergeClasses(config('ui-kit.components.modal.style.overlay'));
 @endphp
 
-<div x-data="{ open: {{ is_bool($open) ? ($open ? 'true' : 'false') : $open }} }" x-init="$watch('open', function(value) {
+<div x-data="{ open: @js($open) }" x-init="$watch('open', function(value) {
     if (value === true) { document.body.classList.add('overflow-hidden') } else { document.body.classList.remove('overflow-hidden') }
 });"
     @if ($name) x-on:open-modal.window="$event.detail == '{{ $name }}' ? open = true : null"
