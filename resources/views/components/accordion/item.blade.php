@@ -37,8 +37,8 @@
         </svg>
     </button>
 
-    <div class="relative overflow-hidden transition-all duration-700 max-h-0" style="" x-ref="container1"
-        x-bind:style="selected == '{{ $id }}' ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+    <div class="relative overflow-hidden transition-all duration-700" style="" x-ref="container1"
+        x-show="selected == '{{ $id }}'">
         <div class="{{ $contentClasses }}">
             {{ $slot }}
         </div>

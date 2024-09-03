@@ -21,9 +21,9 @@
 <div x-data="{ open: {{ is_bool($open) ? ($open ? 'true' : 'false') : $open }} }" x-init="$watch('open', function(value) {
     if (value === true) { document.body.classList.add('overflow-hidden') } else { document.body.classList.remove('overflow-hidden') }
 });"
-    @if ($name) x-on:open-modal.window="$event.detail == '{{ $name }}' ? show = true : null"
-    x-on:close-modal.window="$event.detail == '{{ $name }}' ? show = false : null"
-    x-on:toggle-modal.window="$event.detail == '{{ $name }}' ? show = !show : null" @endif>
+    @if ($name) x-on:open-modal.window="$event.detail == '{{ $name }}' ? open = true : null"
+    x-on:close-modal.window="$event.detail == '{{ $name }}' ? open = false : null"
+    x-on:toggle-modal.window="$event.detail == '{{ $name }}' ? open = !open : null" @endif>
     @isset($trigger)
         <span x-on:click="open = true">
             {{ $trigger }}
