@@ -13,8 +13,6 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'bg-white border-zinc-200',
-                'dark' => 'bg-zinc-800 border-zinc-700',
                 'default' => [
                     'bg-white border-zinc-200',
                     'dark:bg-zinc-800 dark:border-zinc-700',
