@@ -6,7 +6,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.input.style.root'),
+        config('ui-kit.components.input.classes.root'),
         config('ui-kit.components.input.options.size')[$size],
         config('ui-kit.components.input.options.color')[$color],
     );

@@ -6,17 +6,17 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.breadcrumb.style.root'),
+        config('ui-kit.components.breadcrumb.classes.root'),
         config("ui-kit.components.breadcrumb.options.color.{$color}.root"),
     );
 
     $iconClasses = Str::mergeClasses(
-        config('ui-kit.components.breadcrumb.style.icon'),
+        config('ui-kit.components.breadcrumb.classes.icon'),
         config("ui-kit.components.breadcrumb.options.color.{$color}.icon"),
     );
 
     $containerClasses = Str::mergeClasses(
-        config('ui-kit.components.breadcrumb.style.container'),
+        config('ui-kit.components.breadcrumb.classes.container'),
     );
 @endphp
 

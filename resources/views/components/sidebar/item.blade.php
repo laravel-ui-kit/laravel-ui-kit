@@ -6,7 +6,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.sidebar-item.style.root'),
+        config('ui-kit.components.sidebar-item.classes.root'),
         config("ui-kit.components.sidebar-item.options.color.$color"),
         config("ui-kit.components.sidebar-item.options.size.$size"),
     );

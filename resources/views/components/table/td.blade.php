@@ -10,7 +10,7 @@
 
 @php
 $classes = Str::mergeClasses(
-    config('ui-kit.components.td.style.root'),
+    config('ui-kit.components.td.classes.root'),
     config("ui-kit.components.td.options.color.$color"),
     config("ui-kit.components.td.options.align.$align"),
     config("ui-kit.components.td.options.size.$size"),
@@ -18,7 +18,7 @@ $classes = Str::mergeClasses(
 );
 
 $hrefClasses = Str::mergeClasses(
-    config('ui-kit.components.td.style.href'),
+    config('ui-kit.components.td.classes.href'),
     config("ui-kit.components.td.options.color.$color.href"),
     config("ui-kit.components.td.options.size.$size.href"),
 );

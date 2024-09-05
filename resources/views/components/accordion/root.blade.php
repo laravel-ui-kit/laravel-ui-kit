@@ -4,7 +4,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.accordion.style.root'),
+        config('ui-kit.components.accordion.classes.root'),
         config("ui-kit.components.accordion.options.color.$color"),
     );
 @endphp

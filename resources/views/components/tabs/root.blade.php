@@ -6,7 +6,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.tabs.style.root'),
+        config('ui-kit.components.tabs.classes.root'),
         config("ui-kit.components.tabs.options.orientation.$orientation"),
         config("ui-kit.components.tabs.options.color.$color"),
     );

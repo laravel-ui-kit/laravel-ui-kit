@@ -6,32 +6,32 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.navbar.style.root'),
+        config('ui-kit.components.navbar.classes.root'),
         config("ui-kit.components.navbar.options.color.$color.root"),
     );
 
     $containerClasses = Str::mergeClasses(
-        config('ui-kit.components.navbar.style.container'),
+        config('ui-kit.components.navbar.classes.container'),
         config("ui-kit.components.navbar.options.color.$color.container"),
     );
 
     $leftMenu = Str::mergeClasses(
-        config('ui-kit.components.navbar.style.left-menu'),
+        config('ui-kit.components.navbar.classes.left-menu'),
         config("ui-kit.components.navbar.options.color.$color.left-menu"),
     );
 
     $centerMenu = Str::mergeClasses(
-        config('ui-kit.components.navbar.style.center-menu'),
+        config('ui-kit.components.navbar.classes.center-menu'),
         config("ui-kit.components.navbar.options.color.$color.center-menu"),
     );
 
     $rightMenu = Str::mergeClasses(
-        config('ui-kit.components.navbar.style.right-menu'),
+        config('ui-kit.components.navbar.classes.right-menu'),
         config("ui-kit.components.navbar.options.color.$color.right-menu"),
     );
 
     $burgerClasses = Str::mergeClasses(
-        config('ui-kit.components.navbar.style.burger'),
+        config('ui-kit.components.navbar.classes.burger'),
         config("ui-kit.components.navbar.options.color.$color.burger"),
     );
 @endphp

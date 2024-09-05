@@ -7,7 +7,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.checkbox.style.root'),
+        config('ui-kit.components.checkbox.classes.root'),
         config('ui-kit.components.checkbox.options.size')[$size],
         config('ui-kit.components.checkbox.options.color')[$color],
     );

@@ -6,20 +6,20 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.accordion-item.style.root'),
+        config('ui-kit.components.accordion-item.classes.root'),
         config("ui-kit.components.accordion-item.options.color.$color.root"),
     );
 
     $buttonClasses = Str::mergeClasses(
-        config('ui-kit.components.accordion-item.style.button'),
+        config('ui-kit.components.accordion-item.classes.button'),
         config("ui-kit.components.accordion-item.options.color.$color.button"),
     );
 
-    $textClasses = Str::mergeClasses(config('ui-kit.components.accordion-item.style.text'));
+    $textClasses = Str::mergeClasses(config('ui-kit.components.accordion-item.classes.text'));
 
-    $iconClasses = Str::mergeClasses(config('ui-kit.components.accordion-item.style.icon'));
+    $iconClasses = Str::mergeClasses(config('ui-kit.components.accordion-item.classes.icon'));
 
-    $contentClasses = Str::mergeClasses(config('ui-kit.components.accordion-item.style.content'));
+    $contentClasses = Str::mergeClasses(config('ui-kit.components.accordion-item.classes.content'));
 @endphp
 
 <li {{ $attributes->merge(['class' => $classes]) }}>

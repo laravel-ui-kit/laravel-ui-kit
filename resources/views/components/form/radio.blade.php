@@ -7,7 +7,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.radio.style.root'),
+        config('ui-kit.components.radio.classes.root'),
         config('ui-kit.components.radio.options.size')[$size],
         config('ui-kit.components.radio.options.color')[$color],
     );

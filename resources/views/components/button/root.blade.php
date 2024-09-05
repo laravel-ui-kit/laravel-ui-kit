@@ -8,7 +8,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.button.style.root'),
+        config('ui-kit.components.button.classes.root'),
         config("ui-kit.components.button.options.color.$color"),
         config("ui-kit.components.button.options.size.$size"),
     );

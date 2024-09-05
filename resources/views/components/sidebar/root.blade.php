@@ -19,14 +19,14 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.root'),
+        config('ui-kit.components.sidebar.classes.root'),
         config("ui-kit.components.sidebar.options.size.{$size}.root"),
         config("ui-kit.components.sidebar.options.color.{$color}.root"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.root"),
     );
 
     $containerClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.container'),
+        config('ui-kit.components.sidebar.classes.container'),
         config("ui-kit.components.sidebar.options.size.{$size}.container"),
         config("ui-kit.components.sidebar.options.color.{$color}.container"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.container"),
@@ -34,7 +34,7 @@
     );
 
     $containerOpenClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.container-open'),
+        config('ui-kit.components.sidebar.classes.container-open'),
         config("ui-kit.components.sidebar.options.size.{$size}.container-open"),
         config("ui-kit.components.sidebar.options.color.{$color}.container-open"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.container-open"),
@@ -42,7 +42,7 @@
     );
 
     $containerHiddenClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.container-hidden'),
+        config('ui-kit.components.sidebar.classes.container-hidden'),
         config("ui-kit.components.sidebar.options.size.{$size}.container-hidden"),
         config("ui-kit.components.sidebar.options.color.{$color}.container-hidden"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.container-hidden"),
@@ -50,7 +50,7 @@
     );
 
     $overlayClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.overlay'),
+        config('ui-kit.components.sidebar.classes.overlay'),
         config("ui-kit.components.sidebar.options.size.{$size}.overlay"),
         config("ui-kit.components.sidebar.options.color.{$color}.overlay"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.overlay"),
@@ -58,7 +58,7 @@
     );
 
     $mobileNavbarClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.mobile-navbar'),
+        config('ui-kit.components.sidebar.classes.mobile-navbar'),
         config("ui-kit.components.sidebar.options.size.{$size}.mobile-navbar"),
         config("ui-kit.components.sidebar.options.color.{$color}.mobile-navbar"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.mobile-navbar"),
@@ -66,7 +66,7 @@
     );
 
     $burgerClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.burger'),
+        config('ui-kit.components.sidebar.classes.burger'),
         config("ui-kit.components.sidebar.options.size.{$size}.burger"),
         config("ui-kit.components.sidebar.options.color.{$color}.burger"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.burger"),
@@ -74,7 +74,7 @@
     );
 
     $burgerIconClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.burger-icon'),
+        config('ui-kit.components.sidebar.classes.burger-icon'),
         config("ui-kit.components.sidebar.options.size.{$size}.burger-icon"),
         config("ui-kit.components.sidebar.options.color.{$color}.burger-icon"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.burger-icon"),
@@ -82,7 +82,7 @@
     );
 
     $closeClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.close'),
+        config('ui-kit.components.sidebar.classes.close'),
         config("ui-kit.components.sidebar.options.size.{$size}.close"),
         config("ui-kit.components.sidebar.options.color.{$color}.close"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.close"),
@@ -90,7 +90,7 @@
     );
 
     $contentClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.content'),
+        config('ui-kit.components.sidebar.classes.content'),
         config("ui-kit.components.sidebar.options.size.{$size}.content"),
         config("ui-kit.components.sidebar.options.color.{$color}.content"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.content"),
@@ -98,7 +98,7 @@
     );
 
     $contentTopClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.content-top'),
+        config('ui-kit.components.sidebar.classes.content-top'),
         config("ui-kit.components.sidebar.options.size.{$size}.content-top"),
         config("ui-kit.components.sidebar.options.color.{$color}.content-top"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.content-top"),
@@ -106,7 +106,7 @@
     );
 
     $contentBottomClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.content-top'),
+        config('ui-kit.components.sidebar.classes.content-top'),
         config("ui-kit.components.sidebar.options.size.{$size}.content-bottom"),
         config("ui-kit.components.sidebar.options.color.{$color}.content-bottom"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.content-bottom"),
@@ -114,7 +114,7 @@
     );
 
     $openBodyClasses = Str::mergeClasses(
-        config('ui-kit.components.sidebar.style.open-body'),
+        config('ui-kit.components.sidebar.classes.open-body'),
         config("ui-kit.components.sidebar.options.size.{$size}.open-body"),
         config("ui-kit.components.sidebar.options.color.{$color}.open-body"),
         config("ui-kit.components.sidebar.options.variant.{$variant}.open-body"),

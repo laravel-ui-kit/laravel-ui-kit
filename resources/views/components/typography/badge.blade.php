@@ -7,7 +7,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.badge.style.root'),
+        config('ui-kit.components.badge.classes.root'),
         config("ui-kit.components.badge.options.color.$color"),
         config("ui-kit.components.badge.options.size.$size"),
     );

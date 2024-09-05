@@ -8,7 +8,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.dropdown-item.style.root'),
+        config('ui-kit.components.dropdown-item.classes.root'),
         config('ui-kit.components.dropdown-item.options.size')[$size],
         config('ui-kit.components.dropdown-item.options.color')[$color],
         config('ui-kit.components.dropdown-item.options.divider')[$divider],

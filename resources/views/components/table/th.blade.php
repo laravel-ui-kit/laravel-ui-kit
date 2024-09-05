@@ -9,7 +9,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.th.style.root'),
+        config('ui-kit.components.th.classes.root'),
         config("ui-kit.components.th.options.color.$color"),
         config("ui-kit.components.th.options.align.$align"),
         config("ui-kit.components.th.options.size.$size"),

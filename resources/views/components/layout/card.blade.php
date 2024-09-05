@@ -6,7 +6,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.card.style.root'),
+        config('ui-kit.components.card.classes.root'),
         config('ui-kit.components.card.options.color')[$color],
         config('ui-kit.components.card.options.size')[$size],
     );

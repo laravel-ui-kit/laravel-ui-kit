@@ -5,7 +5,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.tr.style.root'),
+        config('ui-kit.components.tr.classes.root'),
         config("ui-kit.components.tr.options.color.$color"),
     );
 @endphp

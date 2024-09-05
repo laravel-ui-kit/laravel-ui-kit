@@ -6,7 +6,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.spinner.style.root'),
+        config('ui-kit.components.spinner.classes.root'),
         config("ui-kit.components.spinner.options.color.$color"),
         config("ui-kit.components.spinner.options.size.$size"),
     );

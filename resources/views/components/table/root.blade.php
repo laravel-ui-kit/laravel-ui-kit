@@ -4,24 +4,24 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.table.style.root'),
+        config('ui-kit.components.table.classes.root'),
         config("ui-kit.components.table.size.$size"),
     );
 
     $containerClasses = Str::mergeClasses(
-        config('ui-kit.components.table.style.container'),
+        config('ui-kit.components.table.classes.container'),
     );
 
     $headClasses = Str::mergeClasses(
-        config('ui-kit.components.table.style.head'),
+        config('ui-kit.components.table.classes.head'),
     );
 
     $bodyClasses = Str::mergeClasses(
-        config('ui-kit.components.table.style.body'),
+        config('ui-kit.components.table.classes.body'),
     );
 
     $footerClasses = Str::mergeClasses(
-        config('ui-kit.components.table.style.footer'),
+        config('ui-kit.components.table.classes.footer'),
     );
 @endphp
 

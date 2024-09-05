@@ -7,7 +7,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.select.style.root'),
+        config('ui-kit.components.select.classes.root'),
         config('ui-kit.components.select.options.size')[$size],
         config('ui-kit.components.select.options.color')[$color],
     );

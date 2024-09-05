@@ -6,7 +6,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.divider.style.root'),
+        config('ui-kit.components.divider.classes.root'),
         config("ui-kit.components.divider.options.color.$color"),
         config("ui-kit.components.divider.options.size.$size"),
     );

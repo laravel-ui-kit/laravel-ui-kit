@@ -9,14 +9,14 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.dropdown.style.root'),
+        config('ui-kit.components.dropdown.classes.root'),
         config("ui-kit.components.dropdown.options.color.$color.root"),
         config("ui-kit.components.dropdown.options.size.$size.root"),
         config("ui-kit.components.dropdown.options.align.$align.root"),
     );
 
     $triggerClasses = Str::mergeClasses(
-        config('ui-kit.components.dropdown.style.trigger'),
+        config('ui-kit.components.dropdown.classes.trigger'),
         config("ui-kit.components.dropdown.options.color.$color.trigger"),
         config("ui-kit.components.dropdown.options.size.$size.trigger"),
         config("ui-kit.components.dropdown.options.align.$align.trigger"),
@@ -24,7 +24,7 @@
     );
 
     $containerClasses = Str::mergeClasses(
-        config('ui-kit.components.dropdown.style.container'),
+        config('ui-kit.components.dropdown.classes.container'),
         config("ui-kit.components.dropdown.options.color.$color.container"),
         config("ui-kit.components.dropdown.options.size.$size.container"),
         config("ui-kit.components.dropdown.options.align.$align.container"),
@@ -32,7 +32,7 @@
     );
 
     $menuClasses = Str::mergeClasses(
-        config('ui-kit.components.dropdown.style.menu'),
+        config('ui-kit.components.dropdown.classes.menu'),
         config("ui-kit.components.dropdown.options.color.$color.menu"),
         config("ui-kit.components.dropdown.options.size.$size.menu"),
         config("ui-kit.components.dropdown.options.align.$align.menu"),

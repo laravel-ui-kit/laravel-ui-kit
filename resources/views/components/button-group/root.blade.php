@@ -4,7 +4,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.button-group.style.root'),
+        config('ui-kit.components.button-group.classes.root'),
     );
 @endphp
 

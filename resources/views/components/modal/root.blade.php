@@ -8,14 +8,14 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.modal.style.root'),
+        config('ui-kit.components.modal.classes.root'),
         config("ui-kit.components.modal.options.size.{$size}"),
         config("ui-kit.components.modal.options.color.{$color}"),
     );
 
-    $containerClasses = Str::mergeClasses(config('ui-kit.components.modal.style.container'));
+    $containerClasses = Str::mergeClasses(config('ui-kit.components.modal.classes.container'));
 
-    $overlayClasses = Str::mergeClasses(config('ui-kit.components.modal.style.overlay'));
+    $overlayClasses = Str::mergeClasses(config('ui-kit.components.modal.classes.overlay'));
 @endphp
 
 <div x-data="{ open: @js($open) }" x-init="$watch('open', function(value) {

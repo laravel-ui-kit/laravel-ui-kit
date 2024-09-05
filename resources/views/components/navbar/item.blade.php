@@ -7,7 +7,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.navbar-item.style.root'),
+        config('ui-kit.components.navbar-item.classes.root'),
         config("ui-kit.components.navbar-item.options.color.$color"),
     );
 @endphp

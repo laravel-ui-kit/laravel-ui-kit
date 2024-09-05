@@ -10,7 +10,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.tab.style.root'),
+        config('ui-kit.components.tab.classes.root'),
         config("ui-kit.components.tab.options.orientation.$orientation"),
         $active 
             ? config("ui-kit.components.tab.options.color.$color.active") 

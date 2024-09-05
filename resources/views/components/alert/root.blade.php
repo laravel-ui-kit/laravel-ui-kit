@@ -7,7 +7,7 @@
 
 @php
     $classes = Str::mergeClasses(
-        config('ui-kit.components.alert.style.root'),
+        config('ui-kit.components.alert.classes.root'),
         config("ui-kit.components.alert.options.size.$size"),
         config("ui-kit.components.alert.options.color.$color"),
     );
