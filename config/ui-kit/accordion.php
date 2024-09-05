@@ -4,18 +4,18 @@ return [
     'accordion' => [
         'view' => 'components.accordion.root',
         'classes' => [
-            'root' => 'relative mx-auto border rounded-xl divide-y divide-gray-600',
+            'root' => 'relative mx-auto border rounded-xl divide-y divide-zinc-600',
         ],
         'props' => [
             'color' => 'default',
         ],
         'options' => [
             'color' => [
-                'light' => 'divide-gray-200 border-gray-200',
-                'dark' => 'divide-gray-700 border-gray-700',
+                'light' => 'divide-zinc-200 border-zinc-200',
+                'dark' => 'divide-zinc-700 border-zinc-700',
                 'default' => [
-                    'divide-gray-200 border-gray-200',
-                    'dark:divide-gray-700 dark:border-gray-700',
+                    'divide-zinc-200 border-zinc-200',
+                    'dark:divide-zinc-700 dark:border-zinc-700',
                 ],
             ],
         ],
@@ -34,17 +34,9 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => [
-                    'root' => 'border-gray-200',
-                    'button' => 'text-gray-700',
-                ],
-                'dark' => [
-                    'root' => 'border-gray-700',
-                    'button' => 'text-gray-300',
-                ],
                 'default' => [
-                    'root' => 'border-gray-200 dark:border-gray-700',
-                    'button' => 'text-gray-700 dark:text-gray-300',
+                    'root' => 'border-zinc-200 dark:border-zinc-700',
+                    'button' => 'text-zinc-700 dark:text-zinc-300',
                 ],
             ],
         ],
