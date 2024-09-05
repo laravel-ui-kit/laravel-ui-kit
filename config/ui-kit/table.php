@@ -52,11 +52,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'text-gray-500 border-gray-200',
-                'dark' => 'text-gray-300 border-gray-700',
+                'light' => 'text-zinc-500 border-zinc-200',
+                'dark' => 'text-zinc-300 border-zinc-700',
                 'default' => [
-                    'text-gray-500 border-gray-200',
-                    'dark:text-gray-300 dark:border-gray-700',
+                    'text-zinc-500 border-zinc-200',
+                    'dark:text-zinc-300 dark:border-zinc-700',
                 ],
             ],
             'size' => [
@@ -94,11 +94,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'text-gray-700 border-gray-200',
-                'dark' => 'text-gray-300 border-gray-700',
+                'light' => 'text-zinc-700 border-zinc-200',
+                'dark' => 'text-zinc-300 border-zinc-700',
                 'default' => [
-                    'text-gray-700 border-gray-200',
-                    'dark:text-gray-400 dark:border-gray-700',
+                    'text-zinc-700 border-zinc-200',
+                    'dark:text-zinc-400 dark:border-zinc-700',
                 ],
             ],
             'size' => [

@@ -13,9 +13,9 @@ return [
         ],
         'options' => [
             'color' => [
-                'primary' => ['text-white bg-gray-800 border-gray-700 hover:bg-opacity-80 dark:bg-gray-500 dark:border-gray-400 dark:hover:bg-opacity-80'],
-                'secondary' => ['text-gray-700 bg-white border-gray-200 hover:bg-gray-50 dark:text-white dark:bg-transparent dark:border-gray-600 dark:hover:bg-gray-600/20'],
-                'transparent' => ['text-gray-700 bg-transparent border-transparent hover:border-gray-200 dark:text-gray-300 dark:hover:border-gray-600'],
+                'primary' => ['text-white bg-zinc-800 border-zinc-700 hover:bg-opacity-80 dark:bg-zinc-500 dark:border-zinc-400 dark:hover:bg-opacity-80'],
+                'secondary' => ['text-zinc-700 bg-white border-zinc-200 hover:bg-zinc-50 dark:text-white dark:bg-transparent dark:border-zinc-600 dark:hover:bg-zinc-600/20'],
+                'transparent' => ['text-zinc-700 bg-transparent border-transparent hover:border-zinc-200 dark:text-zinc-300 dark:hover:border-zinc-600'],
                 'slate' => ['text-white bg-slate-600 border-slate-700 hover:bg-slate-700 dark:bg-slate-500 dark:border-slate-400 dark:hover:bg-slate-600'],
                 'gray' => ['text-white bg-gray-600 border-gray-700 hover:bg-gray-700 dark:bg-gray-500 dark:border-gray-400 dark:hover:bg-gray-600'],
                 'zinc' => ['text-white bg-zinc-600 border-zinc-700 hover:bg-zinc-700 dark:bg-zinc-500 dark:border-zinc-400 dark:hover:bg-zinc-600'],

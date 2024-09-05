@@ -13,11 +13,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'bg-white border-gray-200',
-                'dark' => 'bg-gray-800 border-gray-700',
+                'light' => 'bg-white border-zinc-200',
+                'dark' => 'bg-zinc-800 border-zinc-700',
                 'default' => [
-                    'bg-white border-gray-200',
-                    'dark:bg-gray-800 dark:border-gray-700',
+                    'bg-white border-zinc-200',
+                    'dark:bg-zinc-800 dark:border-zinc-700',
                 ],
             ],
             'size' => [
@@ -44,11 +44,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'bg-gray-100',
-                'dark' => 'bg-gray-900',
+                'light' => 'bg-zinc-100',
+                'dark' => 'bg-zinc-900',
                 'default' => [
-                    'bg-gray-100',
-                    'dark:bg-gray-900',
+                    'bg-zinc-100',
+                    'dark:bg-zinc-900',
                 ],
                 'transparent' => '',
             ],
@@ -81,11 +81,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'border-gray-200',
-                'dark' => 'border-gray-700',
+                'light' => 'border-zinc-200',
+                'dark' => 'border-zinc-700',
                 'default' => [
-                    'border-gray-200',
-                    'dark:border-gray-700',
+                    'border-zinc-200',
+                    'dark:border-zinc-700',
                 ],
             ],
             'size' => [

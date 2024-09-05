@@ -23,14 +23,10 @@ return [
                 '2xl' => 'max-w-2xl',
             ],
             'color' => [
-                'light' => 'bg-white border-gray-200',
-                'dark' => 'bg-gray-800 border-gray-700',
                 'default' => [
-                    'bg-white border-gray-200',
-                    'dark:bg-gray-800 dark:border-gray-700',
+                    'border bg-white border-zinc-200',
+                    'dark:bg-zinc-800 dark:border-zinc-700',
                 ],
-                'gray' => 'bg-gradient-to-b from-neutral-900 via-neutral-900/5',
-                'white' => 'border shadow-sm rounded-xl bg-white border-gray-200',
             ],
         ],
     ],

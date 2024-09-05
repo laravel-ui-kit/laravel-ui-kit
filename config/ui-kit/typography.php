@@ -15,7 +15,7 @@ return [
         ],
         'options' => [
             'color' => [
-                'default' => ['text-stone-800', 'dark:text-gray-400'],
+                'default' => ['text-stone-800', 'dark:text-zinc-400'],
                 'slate' => ['text-slate-500', 'dark:text-slate-400'],
                 'gray' => ['text-gray-500', 'dark:text-gray-400'],
                 'zinc' => ['text-zinc-500', 'dark:text-zinc-400'],
@@ -77,7 +77,7 @@ return [
         ],
         'options' => [
             'color' => [
-                'default' => ['text-stone-800', 'dark:text-gray-100'],
+                'default' => ['text-stone-800', 'dark:text-zinc-100'],
                 'slate' => ['text-slate-800', 'dark:text-slate-100'],
                 'gray' => ['text-gray-800', 'dark:text-gray-100'],
                 'zinc' => ['text-zinc-800', 'dark:text-zinc-100'],
@@ -195,7 +195,7 @@ return [
         ],
         'options' => [
             'color' => [
-                'default' => ['text-gray-700 bg-gray-100', 'dark:text-gray-300 dark:bg-gray-700'],
+                'default' => ['text-zinc-700 bg-zinc-100', 'dark:text-zinc-300 dark:bg-zinc-700'],
                 'slate' => ['text-slate-700 bg-slate-100', 'dark:text-slate-300 dark:bg-slate-700'],
                 'gray' => ['text-gray-700 bg-gray-100', 'dark:text-gray-300 dark:bg-gray-700'],
                 'zinc' => ['text-zinc-700 bg-zinc-100', 'dark:text-zinc-300 dark:bg-zinc-700'],
@@ -244,7 +244,7 @@ return [
         ],
         'options' => [
             'color' => [
-                'default' => ['text-gray-700', 'dark:text-gray-300'],
+                'default' => ['text-zinc-700', 'dark:text-zinc-300'],
                 'slate' => ['text-slate-700', 'dark:text-slate-300'],
                 'gray' => ['text-gray-700', 'dark:text-gray-300'],
                 'zinc' => ['text-zinc-700', 'dark:text-zinc-300'],
@@ -293,7 +293,7 @@ return [
     'caption' => [
         'view' => 'components.typography.caption',
         'classes' => [
-            'root' => 'text-xs text-gray-500',
+            'root' => 'text-xs text-zinc-500',
         ],
         'props' => [
             'as' => 'span',
@@ -304,7 +304,7 @@ return [
         ],
         'options' => [
             'color' => [
-                'default' => ['text-gray-500', 'dark:text-gray-400'],
+                'default' => ['text-zinc-500', 'dark:text-zinc-400'],
                 'slate' => ['text-slate-500', 'dark:text-slate-400'],
                 'gray' => ['text-gray-500', 'dark:text-gray-400'],
                 'zinc' => ['text-zinc-500', 'dark:text-zinc-400'],

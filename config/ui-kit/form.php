@@ -22,10 +22,10 @@ return [
         'options' => [
             'color' => [
                 'light' => 'text-stone-200',
-                'dark' => 'text-gray-800',
+                'dark' => 'text-zinc-800',
                 'default' => [
                     'text-stone-800',
-                    'dark:text-gray-200',
+                    'dark:text-zinc-200',
                 ],
             ],
             'size' => [
@@ -56,11 +56,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'bg-white border-gray-200 text-gray-800 placeholder-gray-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
-                'dark' => 'bg-gray-700 border-gray-600 text-gray-300 placeholder-gray-500 hover:border-gray-500 focus:border-blue-600 focus:bg-gray-700 focus:outline-none focus:ring-blue-600',
+                'light' => 'bg-white border-zinc-200 text-zinc-800 placeholder-zinc-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
+                'dark' => 'bg-zinc-700 border-zinc-600 text-zinc-300 placeholder-zinc-500 hover:border-zinc-500 focus:border-blue-600 focus:bg-zinc-700 focus:outline-none focus:ring-blue-600',
                 'default' => [
-                    'bg-white border-gray-200 text-gray-800 placeholder-gray-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
-                    'dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 dark:placeholder-gray-500 dark:hover:border-gray-500 dark:focus:border-blue-600 dark:focus:bg-gray-700 dark:focus:outline-none dark:focus:ring-blue-600',
+                    'bg-white border-zinc-200 text-zinc-800 placeholder-zinc-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
+                    'dark:bg-zinc-700 dark:border-zinc-600 dark:text-zinc-300 dark:placeholder-zinc-500 dark:hover:border-zinc-500 dark:focus:border-blue-600 dark:focus:bg-zinc-700 dark:focus:outline-none dark:focus:ring-blue-600',
                 ],
             ],
             'size' => [
@@ -82,11 +82,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'bg-white border-gray-200 text-gray-800 placeholder-gray-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
-                'dark' => 'bg-gray-700 border-gray-600 text-gray-300 placeholder-gray-500 hover:border-gray-500 focus:border-blue-600 focus:bg-gray-700 focus:outline-none focus:ring-blue-600',
+                'light' => 'bg-white border-zinc-200 text-zinc-800 placeholder-zinc-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
+                'dark' => 'bg-zinc-700 border-zinc-600 text-zinc-300 placeholder-zinc-500 hover:border-zinc-500 focus:border-blue-600 focus:bg-zinc-700 focus:outline-none focus:ring-blue-600',
                 'default' => [
-                    'bg-white border-gray-200 text-gray-800 placeholder-gray-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
-                    'dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 dark:placeholder-gray-500 dark:hover:border-gray-500 dark:focus:border-blue-600 dark:focus:bg-gray-700 dark:focus:outline-none dark:focus:ring-blue-600',
+                    'bg-white border-zinc-200 text-zinc-800 placeholder-zinc-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
+                    'dark:bg-zinc-700 dark:border-zinc-600 dark:text-zinc-300 dark:placeholder-zinc-500 dark:hover:border-zinc-500 dark:focus:border-blue-600 dark:focus:bg-zinc-700 dark:focus:outline-none dark:focus:ring-blue-600',
                 ],
             ],
             'size' => [
@@ -116,11 +116,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'bg-white border-gray-200 text-gray-800 placeholder-gray-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
-                'dark' => 'bg-gray-700 border-gray-600 text-gray-300 placeholder-gray-500 hover:border-gray-500 focus:border-blue-600 focus:bg-gray-700 focus:outline-none focus:ring-blue-600',
+                'light' => 'bg-white border-zinc-200 text-zinc-800 placeholder-zinc-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
+                'dark' => 'bg-zinc-700 border-zinc-600 text-zinc-300 placeholder-zinc-500 hover:border-zinc-500 focus:border-blue-600 focus:bg-zinc-700 focus:outline-none focus:ring-blue-600',
                 'default' => [
-                    'bg-white border-gray-200 text-gray-800 placeholder-gray-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
-                    'dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 dark:placeholder-gray-500 dark:hover:border-gray-500 dark:focus:border-blue-600 dark:focus:bg-gray-700 dark:focus:outline-none dark:focus:ring-blue-600',
+                    'bg-white border-zinc-200 text-zinc-800 placeholder-zinc-400 focus:border-blue-600 focus:bg-white focus:outline-none focus:ring-blue-600',
+                    'dark:bg-zinc-700 dark:border-zinc-600 dark:text-zinc-300 dark:placeholder-zinc-500 dark:hover:border-zinc-500 dark:focus:border-blue-600 dark:focus:bg-zinc-700 dark:focus:outline-none dark:focus:ring-blue-600',
                 ],
             ],
             'size' => [
@@ -141,11 +141,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'text-blue-500 bg-white border-gray-200 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-white',
-                'dark' => 'text-blue-500 bg-gray-800 border-gray-600 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-gray-800 checked:bg-blue-500 checked:border-sky-600',
+                'light' => 'text-blue-500 bg-white border-zinc-200 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-white',
+                'dark' => 'text-blue-500 bg-zinc-800 border-zinc-600 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-zinc-800 checked:bg-blue-500 checked:border-sky-600',
                 'default' => [
-                    'text-blue-500 bg-white border-gray-200 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-white',
-                    'dark:text-blue-500 dark:bg-gray-800 dark:border-gray-600 dark:focus:ring-sky-500 dark:focus:border-sky-500 dark:focus:ring-offset-gray-800 dark:checked:bg-blue-500 dark:checked:border-sky-600',
+                    'text-blue-500 bg-white border-zinc-200 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-white',
+                    'dark:text-blue-500 dark:bg-zinc-800 dark:border-zinc-600 dark:focus:ring-sky-500 dark:focus:border-sky-500 dark:focus:ring-offset-zinc-800 dark:checked:bg-blue-500 dark:checked:border-sky-600',
                 ],
             ],
             'size' => [
@@ -166,11 +166,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'text-blue-500 bg-white border-gray-200 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-white',
-                'dark' => 'text-blue-500 bg-gray-800 border-gray-600 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-gray-800 checked:bg-blue-500 checked:border-sky-600',
+                'light' => 'text-blue-500 bg-white border-zinc-200 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-white',
+                'dark' => 'text-blue-500 bg-zinc-800 border-zinc-600 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-zinc-800 checked:bg-blue-500 checked:border-sky-600',
                 'default' => [
-                    'text-blue-500 bg-white border-gray-200 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-white',
-                    'dark:text-blue-500 dark:bg-gray-800 dark:border-gray-600 dark:focus:ring-sky-500 dark:focus:border-sky-500 dark:focus:ring-offset-gray-800 dark:checked:bg-blue-500 dark:checked:border-sky-600',
+                    'text-blue-500 bg-white border-zinc-200 focus:ring-sky-500 focus:border-sky-500 focus:ring-offset-white',
+                    'dark:text-blue-500 dark:bg-zinc-800 dark:border-zinc-600 dark:focus:ring-sky-500 dark:focus:border-sky-500 dark:focus:ring-offset-zinc-800 dark:checked:bg-blue-500 dark:checked:border-sky-600',
                 ],
             ],
             'size' => [

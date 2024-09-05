@@ -24,16 +24,16 @@ return [
         'options' => [
             'color' => [
                 'light' => [
-                    'root' => 'text-gray-600 hover:text-gray-800 group-last:text-gray-800',
-                    'icon' => 'text-gray-400',
+                    'root' => 'text-zinc-600 hover:text-zinc-800 group-last:text-zinc-800',
+                    'icon' => 'text-zinc-400',
                 ],
                 'dark' => [
-                    'root' => 'text-gray-400 hover:text-gray-200 group-last:text-gray-200',
-                    'icon' => 'text-gray-600',
+                    'root' => 'text-zinc-400 hover:text-zinc-200 group-last:text-zinc-200',
+                    'icon' => 'text-zinc-600',
                 ],
                 'default' => [
-                    'root' => 'text-gray-600 hover:text-gray-800 group-last:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:group-last:text-gray-200',
-                    'icon' => 'text-gray-400 dark:text-gray-600',
+                    'root' => 'text-zinc-600 hover:text-zinc-800 group-last:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 dark:group-last:text-zinc-200',
+                    'icon' => 'text-zinc-400 dark:text-zinc-600',
                 ],
             ],
         ],

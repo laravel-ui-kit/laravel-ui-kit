@@ -23,5 +23,6 @@ return [
         // Form
         // 'switch' => 'components.form.switch',
         // 'file' => 'components.form.file',
+        // 'popover' => 'components.form.popover',
     ]),
 ];

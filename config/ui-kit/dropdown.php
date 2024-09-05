@@ -18,8 +18,8 @@ return [
             'color' => [
                 'default' => [
                     'container' => [
-                        'bg-white border-gray-200',
-                        'dark:bg-gray-800 dark:border-gray-700',
+                        'bg-white border-zinc-200',
+                        'dark:bg-zinc-800 dark:border-zinc-700',
                     ],
                 ],
             ],
@@ -63,9 +63,9 @@ return [
         ],
         'options' => [
             'color' => [
-                'default' => ['text-gray-700 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-gray-700'],
+                'default' => ['text-zinc-700 hover:text-zinc-900 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:text-zinc-100 dark:hover:bg-zinc-700'],
                 'slate' => ['text-slate-700 hover:text-slate-900 hover:bg-slate-100 dark:text-slate-300 dark:hover:text-slate-100 dark:hover:bg-slate-700'],
-                'gray' => ['text-gray-700 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-gray-700'],
+                'zinc' => ['text-zinc-700 hover:text-zinc-900 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:text-zinc-100 dark:hover:bg-zinc-700'],
                 'zinc' => ['text-zinc-700 hover:text-zinc-900 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:text-zinc-100 dark:hover:bg-zinc-700'],
                 'neutral' => ['text-neutral-700 hover:text-neutral-900 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:text-neutral-100 dark:hover:bg-neutral-700'],
                 'stone' => ['text-stone-700 hover:text-stone-900 hover:bg-stone-100 dark:text-stone-300 dark:hover:text-stone-100 dark:hover:bg-stone-700'],

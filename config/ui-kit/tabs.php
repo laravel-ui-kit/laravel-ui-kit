@@ -13,11 +13,9 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'border-gray-200 text-gray-600',
-                'dark' => 'border-gray-700 text-gray-400',
                 'default' => [
-                    'border-gray-200 text-gray-600',
-                    'dark:border-gray-600 dark:text-gray-400',
+                    'border-zinc-200 text-zinc-600',
+                    'dark:border-zinc-600 dark:text-zinc-400',
                 ],
             ],
             'orientation' => [
@@ -40,17 +38,9 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => [
-                    'active' => 'border-gray-400 text-gray-800',
-                    'not-active' => 'border-transparent hover:border-gray-500 hover:text-gray-700',
-                ],
-                'dark' => [
-                    'active' => 'border-gray-300 text-gray-300',
-                    'not-active' => 'border-transparent hover:border-gray-400 hover:text-gray-400',
-                ],
                 'default' => [
-                    'active' => 'border-gray-800 text-gray-800 font-semibold dark:border-white dark:text-white',
-                    'not-active' => 'border-transparent text-gray-500 hover:border-gray-500 hover:text-gray-700 dark:hover:border-gray-400 dark:hover:text-gray-400',
+                    'active' => 'border-zinc-800 text-zinc-800 font-semibold dark:border-white dark:text-white',
+                    'not-active' => 'border-transparent text-zinc-500 hover:border-zinc-500 hover:text-zinc-700 dark:hover:border-zinc-400 dark:hover:text-zinc-400',
                 ],
             ],
             'orientation' => [

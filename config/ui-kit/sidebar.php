@@ -90,23 +90,11 @@ return [
                 ],
             ],
             'color' => [
-                'light' => [
-                    'overlay' => 'bg-gray-500 bg-opacity-50',
-                    'burger' => 'font-medium text-gray-700 hover:bg-gray-100',
-                    'container' => 'bg-gray-100',
-                    'close' => 'text-gray-700',
-                ],
-                'dark' => [
-                    'overlay' => 'bg-gray-500 bg-opacity-50',
-                    'burger' => 'font-medium text-gray-300 hover:bg-gray-700',
-                    'container' => 'bg-gray-900',
-                    'close' => 'text-gray-300',
-                ],
                 'default' => [
-                    'overlay' => 'bg-gray-500 bg-opacity-50 dark:bg-gray-500 dark:bg-opacity-50',
-                    'burger' => 'font-medium text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700',
-                    'container' => 'bg-gray-100 dark:bg-gray-900',
-                    'close' => 'text-gray-700 dark:text-gray-300',
+                    'overlay' => 'bg-zinc-500 bg-opacity-50 dark:bg-zinc-500 dark:bg-opacity-50',
+                    'burger' => 'font-medium text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-700',
+                    'container' => 'bg-white dark:bg-zinc-900',
+                    'close' => 'text-zinc-700 dark:text-zinc-300',
                 ],
             ],
         ],
@@ -123,25 +111,25 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'text-gray-500 hover:text-gray-700 rounded-md',
-                'dark' => 'text-gray-400 hover:text-gray-300 rounded-md',
+                'light' => 'text-zinc-500 hover:text-zinc-700 rounded-md',
+                'dark' => 'text-zinc-400 hover:text-zinc-300 rounded-md',
                 'default' => [
-                    'text-gray-500 hover:text-gray-700 rounded-md',
-                    'dark:text-gray-400 dark:hover:text-gray-300 dark:rounded-md',
+                    'text-zinc-500 hover:text-zinc-700 rounded-md',
+                    'dark:text-zinc-400 dark:hover:text-zinc-300 dark:rounded-md',
                 ],
 
-                'active-light' => 'text-gray-900 rounded-md font-semibold',
+                'active-light' => 'text-zinc-900 rounded-md font-semibold',
                 'active-dark' => 'text-sky-400 rounded-md',
                 'active' => [
-                    'text-gray-900 rounded-md font-semibold',
+                    'text-zinc-900 rounded-md font-semibold',
                     'dark:text-white dark:rounded-md',
                 ],
 
-                'burger-light' => 'text-gray-700 hover:bg-gray-100 rounded-md',
-                'burger-dark' => 'text-gray-300 hover:bg-gray-700 rounded-md',
+                'burger-light' => 'text-zinc-700 hover:bg-zinc-100 rounded-md',
+                'burger-dark' => 'text-zinc-300 hover:bg-zinc-700 rounded-md',
                 'burger' => [
-                    'text-gray-700 hover:bg-gray-100 rounded-md',
-                    'dark:text-gray-300 dark:hover:bg-gray-700 dark:rounded-md',
+                    'text-zinc-700 hover:bg-zinc-100 rounded-md',
+                    'dark:text-zinc-300 dark:hover:bg-zinc-700 dark:rounded-md',
                 ],
             ],
             'size' => [
@@ -161,11 +149,11 @@ return [
         ],
         'options' => [
             'color' => [
-                'light' => 'border-gray-200 group-hover:text-gray-900',
-                'dark' => 'dark:border-gray-700 dark:bg-gray-800',
+                'light' => 'border-zinc-200 group-hover:text-zinc-900',
+                'dark' => 'dark:border-zinc-700 dark:bg-zinc-800',
                 'default' => [
-                    'border-gray-200 bg-gray-100 group-hover:text-gray-900',
-                    'dark:border-gray-700 dark:bg-gray-800 dark:group-hover:text-white',
+                    'border-zinc-200 bg-zinc-100 group-hover:text-zinc-900',
+                    'dark:border-zinc-700 dark:bg-zinc-800 dark:group-hover:text-white',
                 ],
             ],
             'size' => [
