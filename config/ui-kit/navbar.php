@@ -20,7 +20,7 @@ return [
         'options' => [
             'color' => [
                 'default' => [
-                    'root' => 'border-b border-zinc-200 bg-white text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800 dark:text-white',
+                    'root' => 'border-b border-zinc-200 bg-zinc-100 text-zinc-800 dark:border-zinc-700 dark:bg-zinc-800 dark:text-white',
                 ],
             ],
         ],
