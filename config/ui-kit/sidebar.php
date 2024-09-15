@@ -93,7 +93,7 @@ return [
                 'default' => [
                     'overlay' => 'bg-zinc-500 bg-opacity-50 dark:bg-zinc-500 dark:bg-opacity-50',
                     'burger' => 'font-medium text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-700',
-                    'container' => 'bg-white dark:bg-zinc-900',
+                    'container' => 'bg-zinc-100 dark:bg-zinc-900',
                     'close' => 'text-zinc-700 dark:text-zinc-300',
                 ],
             ],
